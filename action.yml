@@ -3,7 +3,7 @@ author: "RDS"
 description: "Generate a feed for a podcast from a YAML file"
 runs:
   using: "docker"
-  main: "Dockerfile"
+  image: "Dockerfile"
 branding:
   color: "red"
   icon: "git-branch"
