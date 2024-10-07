@@ -3,10 +3,10 @@ author: "RDS"
 description: "Generate a feed for a podcast from a YAML file"
 runs:
   using: "docker"
-  main: "Dockefile"
+  main: "Dockerfile"
 branding:
-  color: "blue"
-  icon: "mic"
+  color: "red"
+  icon: "git-branch"
 inputs:
   email:
     description: "The committer's Email address"
